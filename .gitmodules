@@ -1,0 +1,6 @@
+[submodule "pulp-riscv-gnu-toolchain"]
+	path = pulp-riscv-gnu-toolchain
+	url = https://github.com/pulp-platform/pulp-riscv-gnu-toolchain
+[submodule "pulp-rt-examples"]
+	path = pulp-rt-examples
+	url = https://github.com/pulp-platform/pulp-rt-examples
