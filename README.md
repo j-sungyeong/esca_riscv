@@ -148,7 +148,7 @@ Configure baud rate as 115200 and serial port as /dev/ttyUSB2 among ttyUSB0 ~ tt
 
 4. In a third terminal, launch GDB with the elf file as following:
 ```
-$PULP_RISCV_GCC_TOOLCHAIN_CI/bin/riscv32-unknown-elf-gdb [PATH_TO_YOUR_ELF_FILE]
+$PULP_RISCV_GCC_TOOLCHAIN/bin/riscv32-unknown-elf-gdb [PATH_TO_YOUR_ELF_FILE]
 ```
 5. In gdb, run
 ```
