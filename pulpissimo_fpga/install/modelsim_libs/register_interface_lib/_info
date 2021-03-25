@@ -1,0 +1,438 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d/home/sun/sun/pulpissimo/pulpissimo/sim
+vapb_to_reg
+Z1 DXx6 sv_std 3 std 0 22 d=_JfHTnXCN[H5FjiaJJc0
+Z2 !s110 1612945827
+!i10b 1
+!s100 k8ccU:iXh`f_E9A7SP=CY2
+I[@GK67mFdW3cN2RK69kh41
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+!s105 apb_to_reg_sv_unit
+S1
+R0
+Z4 w1611802967
+8../ips/register_interface/src/apb_to_reg.sv
+F../ips/register_interface/src/apb_to_reg.sv
+Z5 L0 13
+Z6 OL;L;10.7f;67
+r1
+!s85 0
+31
+Z7 !s108 1612945827.000000
+Z8 !s107 ../ips/register_interface/../axi/axi/include/axi/assign.svh|../ips/register_interface/include/register_interface/assign.svh|../ips/register_interface/../common_cells/include/common_cells/registers.svh|../ips/register_interface/include/register_interface/typedef.svh|../ips/register_interface/../axi/axi/include/axi/typedef.svh|../ips/register_interface/src/axi_lite_to_reg.sv|../ips/register_interface/src/reg_uniform.sv|../ips/register_interface/src/reg_to_mem.sv|../ips/register_interface/src/reg_mux.sv|../ips/register_interface/src/reg_demux.sv|../ips/register_interface/src/reg_cdc.sv|../ips/register_interface/src/axi_to_reg.sv|../ips/register_interface/src/apb_to_reg.sv|../ips/register_interface/src/reg_intf.sv|../ips/register_interface/src/reg_intf_pkg.sv|
+Z9 !s90 -quiet|-sv|-work|/home/sun/sun/pulpissimo/pulpissimo/install/modelsim_libs/register_interface_lib|-L|common_cells_lib|-L|axi_lib|-suppress|2583|-suppress|13314|+incdir+../ips/register_interface/include+../ips/register_interface/../axi/axi/include+../ips/register_interface/../common_cells/include|../ips/register_interface/src/reg_intf_pkg.sv|../ips/register_interface/src/reg_intf.sv|../ips/register_interface/src/apb_to_reg.sv|../ips/register_interface/src/axi_to_reg.sv|../ips/register_interface/src/reg_cdc.sv|../ips/register_interface/src/reg_demux.sv|../ips/register_interface/src/reg_mux.sv|../ips/register_interface/src/reg_to_mem.sv|../ips/register_interface/src/reg_uniform.sv|../ips/register_interface/src/axi_lite_to_reg.sv|
+!i113 0
+Z10 o-suppress 2583 -suppress 13314 -quiet -sv -work /home/sun/sun/pulpissimo/pulpissimo/install/modelsim_libs/register_interface_lib -L common_cells_lib -L axi_lib -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+Z11 !s92 -suppress 2583 -suppress 13314 -quiet -sv -work /home/sun/sun/pulpissimo/pulpissimo/install/modelsim_libs/register_interface_lib -L common_cells_lib -L axi_lib +incdir+../ips/register_interface/include+../ips/register_interface/../axi/axi/include+../ips/register_interface/../common_cells/include -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+Z12 tCvgOpt 0
+vaxi_lite_to_reg
+R1
+Z13 DXx7 axi_lib 7 axi_pkg 0 22 _Cf9jQYT7Oad==Y91jL0:1
+R2
+!i10b 1
+!s100 JR73fYDo2:2TLb1:A88CK3
+I[89BX_?o`;B31MO^QHRRB0
+R3
+Z14 !s105 axi_lite_to_reg_sv_unit
+S1
+R0
+R4
+Z15 8../ips/register_interface/src/axi_lite_to_reg.sv
+Z16 F../ips/register_interface/src/axi_lite_to_reg.sv
+L0 15
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R11
+R12
+vaxi_lite_to_reg_intf
+R1
+R13
+R2
+!i10b 1
+!s100 GedzcX25ZNn`iSIEg`CFn2
+I^[caAbY2zYK^``3i8g5bP0
+R3
+R14
+S1
+R0
+R4
+R15
+R16
+L0 224
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R11
+R12
+vaxi_to_reg
+R1
+R13
+R2
+!i10b 1
+!s100 DXoVehdFE;a3bVb^DRobm2
+IX[Y9B2K1?AAcTM3Bz?:kc1
+R3
+Z17 !s105 axi_to_reg_sv_unit
+S1
+R0
+R4
+Z18 8../ips/register_interface/src/axi_to_reg.sv
+Z19 F../ips/register_interface/src/axi_to_reg.sv
+Z20 L0 17
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R11
+R12
+vaxi_to_reg_intf
+R1
+R2
+!i10b 1
+!s100 8Qn7U`3OKPJNebzNY85M_3
+IV6O??L`2bfL`9EMon81JW1
+R3
+R17
+S1
+R0
+R4
+R18
+R19
+L0 111
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R11
+R12
+vprim_subreg
+R1
+R2
+!i10b 1
+!s100 Q2U5hiJD2HH7YnfQC_ecb3
+I93_6M2eT6=`S_A6`M[NJM3
+R3
+!s105 prim_subreg_sv_unit
+S1
+R0
+R4
+8../ips/register_interface/vendor/lowrisc_opentitan/src/prim_subreg.sv
+F../ips/register_interface/vendor/lowrisc_opentitan/src/prim_subreg.sv
+L0 7
+R6
+r1
+!s85 0
+31
+R7
+Z21 !s107 ../ips/register_interface/vendor/lowrisc_opentitan/src/prim_subreg_shadow.sv|../ips/register_interface/vendor/lowrisc_opentitan/src/prim_subreg_ext.sv|../ips/register_interface/vendor/lowrisc_opentitan/src/prim_subreg_arb.sv|../ips/register_interface/vendor/lowrisc_opentitan/src/prim_subreg.sv|
+Z22 !s90 -quiet|-sv|-work|/home/sun/sun/pulpissimo/pulpissimo/install/modelsim_libs/register_interface_lib|-L|common_cells_lib|-L|axi_lib|-suppress|2583|-suppress|13314|+incdir+../ips/register_interface/include+../ips/register_interface/../axi/axi/include+../ips/register_interface/../common_cells/include|../ips/register_interface/vendor/lowrisc_opentitan/src/prim_subreg.sv|../ips/register_interface/vendor/lowrisc_opentitan/src/prim_subreg_arb.sv|../ips/register_interface/vendor/lowrisc_opentitan/src/prim_subreg_ext.sv|../ips/register_interface/vendor/lowrisc_opentitan/src/prim_subreg_shadow.sv|
+!i113 0
+R10
+R11
+R12
+vprim_subreg_arb
+R1
+R2
+!i10b 1
+!s100 @mo@zP5<h4lPCP9z^0^GH1
+Ia7bJUUffM]eYm?QzU9ZVK2
+R3
+!s105 prim_subreg_arb_sv_unit
+S1
+R0
+R4
+8../ips/register_interface/vendor/lowrisc_opentitan/src/prim_subreg_arb.sv
+F../ips/register_interface/vendor/lowrisc_opentitan/src/prim_subreg_arb.sv
+L0 7
+R6
+r1
+!s85 0
+31
+R7
+R21
+R22
+!i113 0
+R10
+R11
+R12
+vprim_subreg_ext
+R1
+R2
+!i10b 1
+!s100 gc[i=W9<Y3G_Z>]EQ79:k0
+I6Pl^;dL:E33ZoC2^m_g>a0
+R3
+!s105 prim_subreg_ext_sv_unit
+S1
+R0
+R4
+8../ips/register_interface/vendor/lowrisc_opentitan/src/prim_subreg_ext.sv
+F../ips/register_interface/vendor/lowrisc_opentitan/src/prim_subreg_ext.sv
+L0 7
+R6
+r1
+!s85 0
+31
+R7
+R21
+R22
+!i113 0
+R10
+R11
+R12
+vprim_subreg_shadow
+R1
+R2
+!i10b 1
+!s100 V?QI<lnNHV6:V>QG3l@E^3
+IT4JeI^gkk:Bf3nTlRd<b@1
+R3
+!s105 prim_subreg_shadow_sv_unit
+S1
+R0
+R4
+8../ips/register_interface/vendor/lowrisc_opentitan/src/prim_subreg_shadow.sv
+F../ips/register_interface/vendor/lowrisc_opentitan/src/prim_subreg_shadow.sv
+L0 7
+R6
+r1
+!s85 0
+31
+R7
+R21
+R22
+!i113 0
+R10
+R11
+R12
+YREG_BUS
+R1
+R2
+!i10b 1
+!s100 8UI0AW4`zR0E[;?IHW0^O1
+IXZ?HFZAAEa=Gk[9Dz;`8G2
+R3
+!s105 reg_intf_sv_unit
+S1
+R0
+R4
+8../ips/register_interface/src/reg_intf.sv
+F../ips/register_interface/src/reg_intf.sv
+L0 22
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R11
+R12
+n@r@e@g_@b@u@s
+vreg_cdc
+R1
+R2
+!i10b 1
+!s100 ?5]No>Q[Th`3ZoLC0BON11
+ILHgQD6N_1k?[OL]3Maf`k3
+R3
+!s105 reg_cdc_sv_unit
+S1
+R0
+R4
+8../ips/register_interface/src/reg_cdc.sv
+F../ips/register_interface/src/reg_cdc.sv
+Z23 L0 14
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R11
+R12
+vreg_demux
+R1
+R2
+!i10b 1
+!s100 SGDm6K?:lAGao1ZKV8:CY0
+I56zQbk:F:BBNlh54Te;QP2
+R3
+!s105 reg_demux_sv_unit
+S1
+R0
+R4
+8../ips/register_interface/src/reg_demux.sv
+F../ips/register_interface/src/reg_demux.sv
+R5
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R11
+R12
+Xreg_intf_pkg
+R1
+R2
+!i10b 1
+!s100 [9JS11g`P9zL<RnhmAijd2
+I36_Icc=6JmcGT1hS3EKTX0
+V36_Icc=6JmcGT1hS3EKTX0
+S1
+R0
+R4
+8../ips/register_interface/src/reg_intf_pkg.sv
+F../ips/register_interface/src/reg_intf_pkg.sv
+L0 23
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R11
+R12
+vreg_mux
+R1
+R2
+!i10b 1
+!s100 eg^Dg0T?kKX2]9hmhaiZX0
+InhCG1RalEGG@n?<G<<Ild0
+R3
+!s105 reg_mux_sv_unit
+S1
+R0
+R4
+8../ips/register_interface/src/reg_mux.sv
+F../ips/register_interface/src/reg_mux.sv
+L0 16
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R11
+R12
+Xreg_test
+!s115 REG_BUS
+R1
+R2
+!i10b 1
+!s100 [nTHL0=^0:4OMl55^T7?I2
+I9BUZEVQ4`]bKnO;37^THZ2
+V9BUZEVQ4`]bKnO;37^THZ2
+S1
+R0
+R4
+8../ips/register_interface/src/reg_test.sv
+F../ips/register_interface/src/reg_test.sv
+R23
+R6
+r1
+!s85 0
+31
+R7
+!s107 ../ips/register_interface/src/reg_test.sv|
+!s90 -quiet|-sv|-work|/home/sun/sun/pulpissimo/pulpissimo/install/modelsim_libs/register_interface_lib|-L|common_cells_lib|-L|axi_lib|-suppress|2583|-suppress|13314|+incdir+../ips/register_interface/include|../ips/register_interface/src/reg_test.sv|
+!i113 0
+R10
+!s92 -suppress 2583 -suppress 13314 -quiet -sv -work /home/sun/sun/pulpissimo/pulpissimo/install/modelsim_libs/register_interface_lib -L common_cells_lib -L axi_lib +incdir+../ips/register_interface/include -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R12
+vreg_to_mem
+R1
+R2
+!i10b 1
+!s100 gfAVU:i12=XL@<MUVZ<jc0
+IdNEVW=gWWZG=6L66Y>nz13
+R3
+!s105 reg_to_mem_sv_unit
+S1
+R0
+R4
+8../ips/register_interface/src/reg_to_mem.sv
+F../ips/register_interface/src/reg_to_mem.sv
+R20
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R11
+R12
+vreg_uniform
+R1
+R2
+!i10b 1
+!s100 L><P:12zBO8:1oNOAC>j;3
+ITSdY40nd<=lCg6LQI`UHo0
+R3
+!s105 reg_uniform_sv_unit
+S1
+R0
+R4
+8../ips/register_interface/src/reg_uniform.sv
+F../ips/register_interface/src/reg_uniform.sv
+R23
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R11
+R12

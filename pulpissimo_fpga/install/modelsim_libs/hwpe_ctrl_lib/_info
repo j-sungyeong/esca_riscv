@@ -1,0 +1,312 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d/home/sun/sun/pulpissimo/pulpissimo/sim
+Yhwpe_ctrl_intf_periph
+Z1 DXx6 sv_std 3 std 0 22 d=_JfHTnXCN[H5FjiaJJc0
+Z2 !s110 1612945826
+!i10b 1
+!s100 iB76o7UU67=dm_EN;U<1A0
+IW@`^?2hlU3zgF[8^Zm``83
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+!s105 hwpe_ctrl_interfaces_sv_unit
+S1
+R0
+Z4 w1611802958
+8../ips/hwpe-ctrl/rtl/hwpe_ctrl_interfaces.sv
+F../ips/hwpe-ctrl/rtl/hwpe_ctrl_interfaces.sv
+Z5 L0 21
+Z6 OL;L;10.7f;67
+r1
+!s85 0
+31
+Z7 !s108 1612945826.000000
+Z8 !s107 ../ips/hwpe-ctrl/rtl/hwpe_ctrl_ucode.sv|../ips/hwpe-ctrl/rtl/hwpe_ctrl_seq_mult.sv|../ips/hwpe-ctrl/rtl/hwpe_ctrl_slave.sv|../ips/hwpe-ctrl/rtl/hwpe_ctrl_regfile_latch.sv|../ips/hwpe-ctrl/rtl/hwpe_ctrl_regfile.sv|../ips/hwpe-ctrl/rtl/hwpe_ctrl_interfaces.sv|../ips/hwpe-ctrl/rtl/hwpe_ctrl_package.sv|
+Z9 !s90 -quiet|-sv|-work|/home/sun/sun/pulpissimo/pulpissimo/install/modelsim_libs/hwpe_ctrl_lib|+nowarnSVCHK|-suppress|2583|-suppress|13314|+incdir+../ips/hwpe-ctrl/rtl|../ips/hwpe-ctrl/rtl/hwpe_ctrl_package.sv|../ips/hwpe-ctrl/rtl/hwpe_ctrl_interfaces.sv|../ips/hwpe-ctrl/rtl/hwpe_ctrl_regfile.sv|../ips/hwpe-ctrl/rtl/hwpe_ctrl_regfile_latch.sv|../ips/hwpe-ctrl/rtl/hwpe_ctrl_slave.sv|../ips/hwpe-ctrl/rtl/hwpe_ctrl_seq_mult.sv|../ips/hwpe-ctrl/rtl/hwpe_ctrl_ucode.sv|
+!i113 0
+Z10 o-suppress 2583 -suppress 13314 -quiet -sv -work /home/sun/sun/pulpissimo/pulpissimo/install/modelsim_libs/hwpe_ctrl_lib +nowarnSVCHK -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+Z11 !s92 -suppress 2583 -suppress 13314 -quiet -sv -work /home/sun/sun/pulpissimo/pulpissimo/install/modelsim_libs/hwpe_ctrl_lib +nowarnSVCHK +incdir+../ips/hwpe-ctrl/rtl -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+Z12 tCvgOpt 0
+Xhwpe_ctrl_package
+R1
+R2
+!i10b 1
+!s100 VNO<7AC4M0gB2e9DoT]Sf1
+I6o`8TD8jN;GQ?35>?^WBV1
+V6o`8TD8jN;GQ?35>?^WBV1
+S1
+R0
+R4
+8../ips/hwpe-ctrl/rtl/hwpe_ctrl_package.sv
+F../ips/hwpe-ctrl/rtl/hwpe_ctrl_package.sv
+Z13 L0 16
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R11
+R12
+vhwpe_ctrl_regfile
+R1
+Z14 DXx4 work 17 hwpe_ctrl_package 0 22 6o`8TD8jN;GQ?35>?^WBV1
+DXx4 work 25 hwpe_ctrl_regfile_sv_unit 0 22 oAWOO;3]5Fn]`Wn_0ZLoZ0
+R3
+r1
+!s85 0
+!i10b 1
+!s100 UE01g9fJ40R;PZn>@oWS=0
+Ie;IGMZ5co1;eXT::M[0>>1
+!s105 hwpe_ctrl_regfile_sv_unit
+S1
+R0
+R4
+Z15 8../ips/hwpe-ctrl/rtl/hwpe_ctrl_regfile.sv
+Z16 F../ips/hwpe-ctrl/rtl/hwpe_ctrl_regfile.sv
+Z17 L0 18
+R6
+31
+R7
+R8
+R9
+!i113 0
+R10
+R11
+R12
+vhwpe_ctrl_regfile_latch
+R1
+R2
+!i10b 1
+!s100 _WoPz??Xm:8ngJ:GN[?nZ2
+I79I?5gVDH0f03=l_`d<2Y3
+R3
+!s105 hwpe_ctrl_regfile_latch_sv_unit
+S1
+R0
+R4
+8../ips/hwpe-ctrl/rtl/hwpe_ctrl_regfile_latch.sv
+F../ips/hwpe-ctrl/rtl/hwpe_ctrl_regfile_latch.sv
+R13
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R11
+R12
+Xhwpe_ctrl_regfile_sv_unit
+R1
+R14
+VoAWOO;3]5Fn]`Wn_0ZLoZ0
+r1
+!s85 0
+!i10b 1
+!s100 5COg=PSIbJbgQF_if8G@K0
+IoAWOO;3]5Fn]`Wn_0ZLoZ0
+!i103 1
+S1
+R0
+R4
+R15
+R16
+R13
+R6
+31
+R7
+R8
+R9
+!i113 0
+R10
+R11
+R12
+vhwpe_ctrl_seq_mult
+R1
+R14
+DXx4 work 26 hwpe_ctrl_seq_mult_sv_unit 0 22 Z]Y>>7W;7l]7kaIZkAblm3
+R3
+r1
+!s85 0
+!i10b 1
+!s100 RJ8EK`naH4WUWPUX6;;OX1
+IMlX2>ZF<hVz<goWVlhzL63
+!s105 hwpe_ctrl_seq_mult_sv_unit
+S1
+R0
+R4
+Z18 8../ips/hwpe-ctrl/rtl/hwpe_ctrl_seq_mult.sv
+Z19 F../ips/hwpe-ctrl/rtl/hwpe_ctrl_seq_mult.sv
+R5
+R6
+31
+R7
+R8
+R9
+!i113 0
+R10
+R11
+R12
+Xhwpe_ctrl_seq_mult_sv_unit
+R1
+R14
+VZ]Y>>7W;7l]7kaIZkAblm3
+r1
+!s85 0
+!i10b 1
+!s100 imFeS[9[LCWEgZIAmO^ce0
+IZ]Y>>7W;7l]7kaIZkAblm3
+!i103 1
+S1
+R0
+R4
+R18
+R19
+Z20 L0 19
+R6
+31
+R7
+R8
+R9
+!i113 0
+R10
+R11
+R12
+vhwpe_ctrl_slave
+R1
+R14
+DXx4 work 23 hwpe_ctrl_slave_sv_unit 0 22 <jGKeYRL8UJcB6UDll2XX0
+R3
+r1
+!s85 0
+!i10b 1
+!s100 T_l;IjDbmzPk9nNKR;eTV1
+IgOhPAkj5IOPC9K=<ClG9N1
+!s105 hwpe_ctrl_slave_sv_unit
+S1
+R0
+R4
+Z21 8../ips/hwpe-ctrl/rtl/hwpe_ctrl_slave.sv
+Z22 F../ips/hwpe-ctrl/rtl/hwpe_ctrl_slave.sv
+R17
+R6
+31
+R7
+R8
+R9
+!i113 0
+R10
+R11
+R12
+Xhwpe_ctrl_slave_sv_unit
+R1
+R14
+V<jGKeYRL8UJcB6UDll2XX0
+r1
+!s85 0
+!i10b 1
+!s100 WBzhDV@DL25bNz00`02C:2
+I<jGKeYRL8UJcB6UDll2XX0
+!i103 1
+S1
+R0
+R4
+R21
+R22
+R13
+R6
+31
+R7
+R8
+R9
+!i113 0
+R10
+R11
+R12
+vhwpe_ctrl_ucode
+R1
+R14
+DXx4 work 23 hwpe_ctrl_ucode_sv_unit 0 22 3X6Rh;@JTSO`RF:?]zF;k3
+R3
+r1
+!s85 0
+!i10b 1
+!s100 65SlSU<3T<kh^0=W5fYm[0
+I@U@Tcn;4Wn3Q?C5QQTN`a3
+!s105 hwpe_ctrl_ucode_sv_unit
+S1
+R0
+R4
+Z23 8../ips/hwpe-ctrl/rtl/hwpe_ctrl_ucode.sv
+Z24 F../ips/hwpe-ctrl/rtl/hwpe_ctrl_ucode.sv
+L0 23
+R6
+31
+R7
+R8
+R9
+!i113 0
+R10
+R11
+R12
+Xhwpe_ctrl_ucode_sv_unit
+R1
+R14
+V3X6Rh;@JTSO`RF:?]zF;k3
+r1
+!s85 0
+!i10b 1
+!s100 d:oV3g>bC5]8a`1A;n4?H2
+I3X6Rh;@JTSO`RF:?]zF;k3
+!i103 1
+S1
+R0
+R4
+R23
+R24
+R5
+R6
+31
+R7
+R8
+R9
+!i113 0
+R10
+R11
+R12
+vtb_hwpe_ctrl_seq_mult
+R1
+R2
+!i10b 1
+!s100 c@ZbcPUa?XXcAkNdB7IE;1
+IbRQ0C_=3BKQ1?H=;J>7250
+R3
+!s105 tb_hwpe_ctrl_seq_mult_sv_unit
+S1
+R0
+R4
+8../ips/hwpe-ctrl/tb/tb_hwpe_ctrl_seq_mult.sv
+F../ips/hwpe-ctrl/tb/tb_hwpe_ctrl_seq_mult.sv
+R20
+R6
+r1
+!s85 0
+31
+R7
+!s107 ../ips/hwpe-ctrl/tb/tb_hwpe_ctrl_seq_mult.sv|
+!s90 -quiet|-sv|-work|/home/sun/sun/pulpissimo/pulpissimo/install/modelsim_libs/hwpe_ctrl_lib|-suppress|2583|-suppress|13314|../ips/hwpe-ctrl/tb/tb_hwpe_ctrl_seq_mult.sv|
+!i113 0
+o-suppress 2583 -suppress 13314 -quiet -sv -work /home/sun/sun/pulpissimo/pulpissimo/install/modelsim_libs/hwpe_ctrl_lib -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R12

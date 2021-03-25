@@ -1,0 +1,320 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d/home/sun/sun/pulpissimo/pulpissimo/sim
+vfpnew_cast_multi
+Z1 DXx6 sv_std 3 std 0 22 d=_JfHTnXCN[H5FjiaJJc0
+Z2 DXx4 work 9 fpnew_pkg 0 22 W99[L[T?gzzi27R]_=m4K3
+Z3 !s110 1612945825
+!i10b 1
+!s100 [zU82`>DEPX<kmn?=iR0Y1
+IiZO@=SQL10Pa>jzD@4ZkD0
+Z4 VDg1SIo80bB@j0V0VzS_@n1
+!s105 fpnew_cast_multi_sv_unit
+S1
+R0
+Z5 w1611802923
+8../ips/fpnew/src/fpnew_cast_multi.sv
+F../ips/fpnew/src/fpnew_cast_multi.sv
+Z6 L0 16
+Z7 OL;L;10.7f;67
+r1
+!s85 0
+31
+Z8 !s108 1612945825.000000
+!s107 ../ips/fpnew/../common_cells/include/common_cells/registers.svh|../ips/fpnew/src/fpnew_top.sv|../ips/fpnew/src/fpnew_rounding.sv|../ips/fpnew/src/fpnew_opgroup_multifmt_slice.sv|../ips/fpnew/src/fpnew_opgroup_fmt_slice.sv|../ips/fpnew/src/fpnew_opgroup_block.sv|../ips/fpnew/src/fpnew_noncomp.sv|../ips/fpnew/src/fpnew_fma_multi.sv|../ips/fpnew/src/fpnew_fma.sv|../ips/fpnew/src/fpnew_divsqrt_multi.sv|../ips/fpnew/src/fpnew_classifier.sv|../ips/fpnew/src/fpnew_cast_multi.sv|../ips/fpnew/src/fpnew_pkg.sv|
+Z9 !s90 -quiet|-sv|-work|/home/sun/sun/pulpissimo/pulpissimo/install/modelsim_libs/fpnew_lib|-suppress|2583|-suppress|13314|+incdir+../ips/fpnew/../common_cells/include|../ips/fpnew/src/fpnew_pkg.sv|../ips/fpnew/src/fpnew_cast_multi.sv|../ips/fpnew/src/fpnew_classifier.sv|../ips/fpnew/src/fpnew_divsqrt_multi.sv|../ips/fpnew/src/fpnew_fma.sv|../ips/fpnew/src/fpnew_fma_multi.sv|../ips/fpnew/src/fpnew_noncomp.sv|../ips/fpnew/src/fpnew_opgroup_block.sv|../ips/fpnew/src/fpnew_opgroup_fmt_slice.sv|../ips/fpnew/src/fpnew_opgroup_multifmt_slice.sv|../ips/fpnew/src/fpnew_rounding.sv|../ips/fpnew/src/fpnew_top.sv|
+!i113 0
+Z10 o-suppress 2583 -suppress 13314 -quiet -sv -work /home/sun/sun/pulpissimo/pulpissimo/install/modelsim_libs/fpnew_lib -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+Z11 !s92 -suppress 2583 -suppress 13314 -quiet -sv -work /home/sun/sun/pulpissimo/pulpissimo/install/modelsim_libs/fpnew_lib +incdir+../ips/fpnew/../common_cells/include -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+Z12 tCvgOpt 0
+vfpnew_classifier
+R1
+R2
+R3
+!i10b 1
+!s100 N]2bf^CBN;7_n20z7CB0K3
+I^kWF3`izc_^FA7Cf<omLG3
+R4
+!s105 fpnew_classifier_sv_unit
+S1
+R0
+R5
+8../ips/fpnew/src/fpnew_classifier.sv
+F../ips/fpnew/src/fpnew_classifier.sv
+Z13 L0 14
+R7
+r1
+!s85 0
+31
+R8
+Z14 !s107 ../ips/fpnew/../common_cells/include/common_cells/registers.svh|../ips/fpnew/src/fpnew_top.sv|../ips/fpnew/src/fpnew_rounding.sv|../ips/fpnew/src/fpnew_opgroup_multifmt_slice.sv|../ips/fpnew/src/fpnew_opgroup_fmt_slice.sv|../ips/fpnew/src/fpnew_opgroup_block.sv|../ips/fpnew/src/fpnew_noncomp.sv|../ips/fpnew/src/fpnew_fma_multi.sv|../ips/fpnew/src/fpnew_fma.sv|../ips/fpnew/src/fpnew_divsqrt_multi.sv|../ips/fpnew/src/fpnew_classifier.sv|../ips/fpnew/src/fpnew_cast_multi.sv|../ips/fpnew/src/fpnew_pkg.sv|
+R9
+!i113 0
+R10
+R11
+R12
+vfpnew_divsqrt_multi
+R1
+R2
+R3
+!i10b 1
+!s100 9gBCmVAdaOzF^iNF[9?l11
+Izj4_oh]6D1E>_`_8zALng1
+R4
+!s105 fpnew_divsqrt_multi_sv_unit
+S1
+R0
+R5
+8../ips/fpnew/src/fpnew_divsqrt_multi.sv
+F../ips/fpnew/src/fpnew_divsqrt_multi.sv
+R6
+R7
+r1
+!s85 0
+31
+R8
+R14
+R9
+!i113 0
+R10
+R11
+R12
+vfpnew_fma
+R1
+R2
+R3
+!i10b 1
+!s100 `1l=Y5O7Fk5h;DLV5W@oW2
+I36dY2ZRNLQ7F3onHaR9Ma1
+R4
+!s105 fpnew_fma_sv_unit
+S1
+R0
+R5
+8../ips/fpnew/src/fpnew_fma.sv
+F../ips/fpnew/src/fpnew_fma.sv
+R6
+R7
+r1
+!s85 0
+31
+R8
+R14
+R9
+!i113 0
+R10
+R11
+R12
+vfpnew_fma_multi
+R1
+R2
+R3
+!i10b 1
+!s100 daFmDWPnIBigZ`O:@UR7N3
+IklX]eh59UkS>NSI=<BaA^2
+R4
+!s105 fpnew_fma_multi_sv_unit
+S1
+R0
+R5
+8../ips/fpnew/src/fpnew_fma_multi.sv
+F../ips/fpnew/src/fpnew_fma_multi.sv
+R6
+R7
+r1
+!s85 0
+31
+R8
+R14
+R9
+!i113 0
+R10
+R11
+R12
+vfpnew_noncomp
+R1
+R2
+R3
+!i10b 1
+!s100 =<BIIz;Skb1DJ0n@;5jh^0
+IBVMgEMc@oXX3QmDM2EkM`2
+R4
+!s105 fpnew_noncomp_sv_unit
+S1
+R0
+R5
+8../ips/fpnew/src/fpnew_noncomp.sv
+F../ips/fpnew/src/fpnew_noncomp.sv
+R6
+R7
+r1
+!s85 0
+31
+R8
+R14
+R9
+!i113 0
+R10
+R11
+R12
+vfpnew_opgroup_block
+R1
+R2
+R3
+!i10b 1
+!s100 6B1DD8[U9]Ha:0[W`EnOH1
+I8`J[H;@Son^igN1^G?3YQ1
+R4
+!s105 fpnew_opgroup_block_sv_unit
+S1
+R0
+R5
+8../ips/fpnew/src/fpnew_opgroup_block.sv
+F../ips/fpnew/src/fpnew_opgroup_block.sv
+R13
+R7
+r1
+!s85 0
+31
+R8
+R14
+R9
+!i113 0
+R10
+R11
+R12
+vfpnew_opgroup_fmt_slice
+R1
+R2
+R3
+!i10b 1
+!s100 :00AN5l<EL=NEZd8g5`@F1
+I;?l]TnzaP2dm3?dDhbM1G0
+R4
+!s105 fpnew_opgroup_fmt_slice_sv_unit
+S1
+R0
+R5
+8../ips/fpnew/src/fpnew_opgroup_fmt_slice.sv
+F../ips/fpnew/src/fpnew_opgroup_fmt_slice.sv
+R13
+R7
+r1
+!s85 0
+31
+R8
+R14
+R9
+!i113 0
+R10
+R11
+R12
+vfpnew_opgroup_multifmt_slice
+R1
+R2
+R3
+!i10b 1
+!s100 ]<N8I50`oSW^O=[?o0f9I3
+I8e0HPW[oEjcEYiIDGI[4I1
+R4
+!s105 fpnew_opgroup_multifmt_slice_sv_unit
+S1
+R0
+R5
+8../ips/fpnew/src/fpnew_opgroup_multifmt_slice.sv
+F../ips/fpnew/src/fpnew_opgroup_multifmt_slice.sv
+R6
+R7
+r1
+!s85 0
+31
+R8
+R14
+R9
+!i113 0
+R10
+R11
+R12
+Xfpnew_pkg
+R1
+R3
+!i10b 1
+!s100 3JEO8do>;JBo3ZQB@EzDz2
+IW99[L[T?gzzi27R]_=m4K3
+VW99[L[T?gzzi27R]_=m4K3
+S1
+R0
+R5
+8../ips/fpnew/src/fpnew_pkg.sv
+F../ips/fpnew/src/fpnew_pkg.sv
+R13
+R7
+r1
+!s85 0
+31
+R8
+R14
+R9
+!i113 0
+R10
+R11
+R12
+vfpnew_rounding
+R1
+R2
+R3
+!i10b 1
+!s100 a?^bbfJ6Gci4mJM^^TDd?3
+IYCga@jLl;AT>0RCM;TF4>1
+R4
+!s105 fpnew_rounding_sv_unit
+S1
+R0
+R5
+8../ips/fpnew/src/fpnew_rounding.sv
+F../ips/fpnew/src/fpnew_rounding.sv
+R13
+R7
+r1
+!s85 0
+31
+R8
+R14
+R9
+!i113 0
+R10
+R11
+R12
+vfpnew_top
+R1
+R2
+R3
+!i10b 1
+!s100 1@>hMHR3;b2?_oa_L4A^e0
+IVc<bD52B`Jgo3RGD2=6^C0
+R4
+!s105 fpnew_top_sv_unit
+S1
+R0
+R5
+8../ips/fpnew/src/fpnew_top.sv
+F../ips/fpnew/src/fpnew_top.sv
+R13
+R7
+r1
+!s85 0
+31
+R8
+R14
+R9
+!i113 0
+R10
+R11
+R12

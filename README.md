@@ -41,7 +41,7 @@ $ sudo apt install git python3-pip python-pip gawk texinfo libgmp-dev libmpfr-de
 $ sudo pip3 install artifactory twisted prettytable sqlalchemy pyelftools 'openpyxl==2.6.4' xlsxwriter pyyaml numpy configparser pyvcd
 $ sudo pip2 install configparser
 ```
-There is an error when upgrading pip to version higher than 21.x.x. To solve this, upgrade pip to version 20.3.4 by ```python3 -m pip install pip=20.3.4``` and ```python -m pip install pip=20.3.4```. There is another solution using python version higher than 3.6 by ```update-alternatives```. After installing packages, pythong version should be changed to 3.5.2 again.
+There is an error when upgrading pip to version higher than 21.x.x. To solve this, upgrade pip to version 20.3.4 by ```python3 -m pip install pip==20.3.4``` and ```python -m pip install pip==20.3.4```. There is another solution using python version higher than 3.6 by ```update-alternatives```. After installing packages, pythong version should be changed to 3.5.2 again.
 
 ### Download sources
 ```
@@ -159,4 +159,40 @@ $PULP_RISCV_GCC_TOOLCHAIN/bin/riscv32-unknown-elf-gdb [PATH_TO_YOUR_ELF_FILE]
 Then you can run or debug the application using GDB.
 
 ## 4. Simulation with Vivado Simulator
-PULPissimo is using Modelsim/Questasim simulator from Mentor Graphics which is not free. Here, simulating on FPGA with Vivado Simulator is provided.
+PULPissimo is using Modelsim/Questasim simulator from Mentor Graphics which is not free. Here, simulation on FPGA with Vivado Simulator is provided.
+   
+To simulate an application on FPGA environment, we changed pulpissimo project as following:
+
+1. ```fpga_bootrom.sv``` : Changed to jump to 0x1C008080, which is the entry of any application for pulpissimo.
+2. ```pulpissimo.sv``` and ```pad_frame.sv``` : Changed clock and reset to input port to be used in testbench.
+3. Memory : We used coe files to initialize private and interleaved rams. Until now, we generated six block memory generators with different coe files to initialize the rams properly. There is a coe file generator to help this.
+
+### Download Sources
+```pulpissimo_fpga``` includes modified PULPissimo and pulpissimo-zcu102 project. We commented out several lines not related to FPGA simulation(inside ```ifndef PULP_FPGA_EMUL```), so it may not work on other simulator with pulp-runtime. 
+
+### Setup project
+Copy your elf file under ```fpga/pulpissimo-zcu102/coe```, change its name to ```test``` if it's not, and run the shell script. 
+```
+$ ./elf2coe.sh
+```
+This will change the elf file to binary file, and split it into six coe files which will be used on IP generation.   
+At ```pulpissimo-zcu102```, type ```make all``` or ```make gui``` to generate bitstream. __Whenever you change your application, you have to synthesize the project again.__
+
+### Simulation setting
+Open pulpissimo-zcu102.xpr after synthesize. Click simulation source directory and add testbench by 'Add Source'. Simple testbench ```xilinx_pulpissimo_tb.v```, which just provides clk and reset, is located at ```pulpissimo-zcu102/rtl```.    
+
+![simulation_addsource](https://user-images.githubusercontent.com/19741293/112418157-519a8e80-8d6c-11eb-9e6b-60561188c901.png)
+   
+Click 'Settings' under 'Project Manager' - 'Simulation'. (1) Set the testbench as top module. (2) Type ```-d PULP_FPGA_EMUL=1 -d SYNTHESIS``` at xvlog.more_options. Click 'Apply'.   
+
+![simulation_setting](https://user-images.githubusercontent.com/19741293/112418558-0af96400-8d6d-11eb-9286-7d6603d5223d.png)
+
+Right-click simulation source directory - 'Hierarchy Update' - 'Automatic Update, Manual Compile Order'.    
+
+![simulation_hierarchy](https://user-images.githubusercontent.com/19741293/112419025-f9648c00-8d6d-11eb-86f2-54810a529ce3.png)
+   
+Click 'Run Simulation' - 'Run Post-Synthesis Functional Simulation'. There is an error on Behavioral Simulation and we could not make it work.   
+
+![simulation_selection](https://user-images.githubusercontent.com/19741293/112419030-fbc6e600-8d6d-11eb-8b8b-463528d66d49.png)
+   
+Run simulation about 1000000ns and you will see the program counter is changed from boot address to the application entry.
