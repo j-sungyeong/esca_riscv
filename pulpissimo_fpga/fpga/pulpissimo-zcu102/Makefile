@@ -24,8 +24,9 @@ clk: ## Synthesizes the Xilinx Clocking Manager IPs
 clean-clk: ## Removes all Clocking Wizard IP outputs
 	$(MAKE) -C ips/xilinx_clk_mngr clean
 	$(MAKE) -C ips/xilinx_slow_clk_mngr clean
-	
+
 ram: ## Synthesizes the Xilinx Block Memory Generator IPs for PULPissimo's L2 Ram
+	$(MAKE) -C coe all
 	$(MAKE) -C ips/xilinx_private_ram0 all
 	$(MAKE) -C ips/xilinx_private_ram1 all
 	$(MAKE) -C ips/xilinx_interleaved_ram0 all
@@ -35,6 +36,7 @@ ram: ## Synthesizes the Xilinx Block Memory Generator IPs for PULPissimo's L2 Ra
 
 
 clean-ram: ## Removes all Block Ram IP outputs related to l2 ram
+	$(MAKE) -C coe clean
 	$(MAKE) -C ips/xilinx_private_ram0 clean
 	$(MAKE) -C ips/xilinx_private_ram1 clean
 	$(MAKE) -C ips/xilinx_interleaved_ram0 clean

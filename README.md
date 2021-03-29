@@ -41,7 +41,7 @@ $ sudo apt install git python3-pip python-pip gawk texinfo libgmp-dev libmpfr-de
 $ sudo pip3 install artifactory twisted prettytable sqlalchemy pyelftools 'openpyxl==2.6.4' xlsxwriter pyyaml numpy configparser pyvcd
 $ sudo pip2 install configparser
 ```
-There is an error when upgrading pip to version higher than 21.x.x. To solve this, upgrade pip to version 20.3.4 by ```python3 -m pip install pip==20.3.4``` and ```python -m pip install pip==20.3.4```. There is another solution using python version higher than 3.6 by ```update-alternatives```. After installing packages, pythong version should be changed to 3.5.2 again.
+There is an error when upgrading pip to version higher than 21.x.x. To solve this, upgrade pip to version 20.3.4 by ```python3 -m pip install pip==20.3.4``` and ```python -m pip install pip==20.3.4```. There is another solution using python version higher than 3.6 by ```update-alternatives```. After installing packages, python version should be changed to 3.5.2 again.
 
 ### Download sources
 ```
