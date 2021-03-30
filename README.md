@@ -171,7 +171,7 @@ To simulate an application on FPGA environment, we changed pulpissimo project as
 ```pulpissimo_fpga``` includes modified PULPissimo and pulpissimo-zcu102 project. We commented out several lines not related to FPGA simulation(inside ```ifndef PULP_FPGA_EMUL```), so it may not work on other simulator with pulp-runtime. 
 
 ### Setup project
-```./update-ips``` and ```./generate-scripts``` is needed for ```pulpissimo_fpga```. Copy your elf file under ```fpga/pulpissimo-zcu102/coe```, change its name to ```test``` if it's not, and run the shell script. 
+```./update-ips``` and ```./generate-scripts``` are needed for ```pulpissimo_fpga```. After that, replace ```ips/pulp_soc/rtl/pulp_soc/l2_ram_multi_bank.sv``` with ```l2_ram_multi_bank.sv``` which is located under ```esca_riscv``` directory. Copy your elf file under ```fpga/pulpissimo-zcu102/coe```, change its name to ```test``` if it's not, and run the shell script. 
 ```
 $ ./elf2coe.sh
 ```
