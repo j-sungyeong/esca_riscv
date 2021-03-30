@@ -44,7 +44,7 @@ clean-ram: ## Removes all Block Ram IP outputs related to l2 ram
 	$(MAKE) -C ips/xilinx_interleaved_ram2 clean
 	$(MAKE) -C ips/xilinx_interleaved_ram3 clean
 
-clean: ## Removes all bitstreams, *.log files and vivado related files (rm -rf vivado*)
+clean: clean-ips ## Removes all bitstreams, *.log files and vivado related files (rm -rf vivado*)
 	rm -rf ${PROJECT}.*[^'bit']
 	rm -rf ${PROJECT}.*[^'bin']
 	rm -rf *.log

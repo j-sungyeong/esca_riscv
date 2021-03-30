@@ -171,12 +171,12 @@ To simulate an application on FPGA environment, we changed pulpissimo project as
 ```pulpissimo_fpga``` includes modified PULPissimo and pulpissimo-zcu102 project. We commented out several lines not related to FPGA simulation(inside ```ifndef PULP_FPGA_EMUL```), so it may not work on other simulator with pulp-runtime. 
 
 ### Setup project
-Copy your elf file under ```fpga/pulpissimo-zcu102/coe```, change its name to ```test``` if it's not, and run the shell script. 
+```./update-ips``` and ```./generate-scripts``` is needed for ```pulpissimo_fpga```. Copy your elf file under ```fpga/pulpissimo-zcu102/coe```, change its name to ```test``` if it's not, and run the shell script. 
 ```
 $ ./elf2coe.sh
 ```
 This will change the elf file to binary file, and split it into six coe files which will be used on IP generation.   
-At ```pulpissimo-zcu102```, type ```make all``` or ```make gui``` to generate bitstream. __Whenever you change your application, you have to synthesize the project again.__
+Move to ```fpga/pulpissimo-zcu102```, type ```make all``` or ```make gui``` to generate bitstream. __Whenever you change your application, you have to clean and synthesize the project again.__ ```make clean``` will remove everything, ```make clean-ram``` will only remove rams.
 
 ### Simulation setting
 Open pulpissimo-zcu102.xpr after synthesize. Click simulation source directory and add testbench by 'Add Source'. Simple testbench ```xilinx_pulpissimo_tb.v```, which just provides clk and reset, is located at ```pulpissimo-zcu102/rtl```.    
